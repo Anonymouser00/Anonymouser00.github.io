@@ -122,16 +122,16 @@ function selectCompVideo(methodPill, scenePill, n_views, modePill) {
 
     console.log("[info]", video_active_source); 
 
-    video_active_source.dataset.src = "videos/results/" + mode + "/" + pill + ".mp4";
+    video_active_source.dataset.src = "" + mode + "/" + pill + ".mp4";
     // video_active_source.dataset.vrsrc = video_active_source.dataset.src;
-    video_active_source.src = "videos/results/" + mode + "/" + pill + ".mp4";
+    video_active_source.src = "" + mode + "/" + pill + ".mp4";
 
     // var video_active = document.getElementById("compVideo" + activeVidID);
     video_active_source.setAttribute('src', video_active_source.getAttribute('data-src'));
     const videoElement = document.querySelector('#compVideo'+ activeVidID);
 
 
-    videoElement.src = "videos/results/" + mode + "/" + pill + ".mp4";
+    videoElement.src = "" + mode + "/" + pill + ".mp4";
 
 
     videoElement.load(); // 强制重新加载视频

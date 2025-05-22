@@ -92,6 +92,9 @@ function selectCompVideo(methodPill, scenePill, n_views, modePill) {
         case 'vangogh':
             promptTextBox.text("VanGogh's oil paintings style, depicting a a street in a tranquil small town. The sky is blue.");
             break;
+        case 'text':
+            promptTextBox.text("A scenic view of a river and a forest.");
+            break;
         // case 'l15':
         //     promptTextBox.text("A tranquil mountain lake, crystal clear reflections, majestic mountains, blue sky, black and white photo");
         //     break;
